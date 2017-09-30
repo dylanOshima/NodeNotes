@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+body {
+  font: "Open Sans",'Roboto', arial;
+  height: 100%;
+  width: 100%;
+  padding: 25px 50px;
+}
+
+li {
+  margin-left: 17px;
+}
+
+#DEF {
+  color: red;
+}
+
+#IMP {
+  color: purple;
+  /*font-style: italic;*/
+}
+
+#CODE {
+  color: green;
+  font: 'Roboto', sans-serif;
+}

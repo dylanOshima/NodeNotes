@@ -1,0 +1,34 @@
+`Node Notes Sample`
+
+# Abstract Data Structures
+Def Data Structure - Defines the way +data is +organized and +stored in computer memory so it can be +conveniently accessed+ and +processed+.
+
+Def Abstract Data Types (ADT) - A collection of +items+ along with its +operations+. Doesn't care about implementation
+
+### Stack
+Def Stack - It is a +LIFO+ (Last in, first out) data structure. Thusly operations can only occur on the +top+.
+    #### Operations
+    Def Push - +insertion+ of an +item+ (takes parameters)
+        * Cannot push to a +full stack+ (overflow)
+    Def Pop - +removal of an item (returns an item)
+        * Cannot Pop from an +empty stack+ (underflow)
+        * Only applied to the TOP item
+    * Linear Data Flow
+
+    #### Application of Stack
+    * Invoking a function
+    * Running recursive processes
+    * Reversing the order of elements
+    * Expression conversion and expression evaluation
+
+    #### Access Methods
+    * `push(var)` - Pushes an item onto the stack. Requires a parameter.
+    * `pop()` - Returns the top value of the stack
+
+    #### Implementation - Using an array
+    * Using a linear array
+    * Static stack size
+    `TOP` - a variable to keep track of the stack size
+        * Holds the index of the topmost element
+        * Initially, `TOP = -1` because when `TOP = 0`, then there is 1 item
+    * Make sure the push and pop functions check for +underflow+ and +overflow conditions+

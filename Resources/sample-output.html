@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+    <title>Sample Output</title>
+  </head>
+  <body>
+    <h1> Abstract Data Structures</h1>
+    <p> <!-- Every \backspace creates a new '<p>' tag -->
+      <!--  Keep in mind that DEF adds a '-' at the end of the end span tag  -->
+      <span id="DEF"> Data Structures </span> - Defines the way <span id="IMP">data</span> is <span id="IMP">organized</span> and <span id="IMP">stored</span> in computer memory so it can be <span id="IMP">conveniently accessed</span> and <span id="IMP">processed</span>.
+      <span id="DEF"> Abstract Data Types (ADT) </span> - A collection of <span id="IMP">items</span> along with its <span id="IMP">operations</span>. Doesn't care about implementation.
+    </p>
+
+    <p>
+      <h3> Stack </h3>
+      <ul> <!-- When there is an \indent a <li> appears and it only closes when indents stop appearing -->
+        <h4> Operations </h4>
+        <span id="DEF"> Push </span> - <span id="IMP">Insertion</span> of an <span id="IMP">item</span> (takes parameters)
+          <ul>
+            <li> Cannot push to a <span id="IMP">full stack</span> (overflow)
+          </ul>
+
+        <span id="DEF"> Pop </span> - <span id="IMP">Removal</span> of an <span id="IMP">item</span> (returns the top item)
+        <ul>
+          <li> Cannot Pop from an <span id="IMP">empty stack</span> (underflow)
+          <li> Only applied to the TOP item
+        </ul>
+        <li> Linear Data Flow
+
+      <h4> Application of Stack </h4>
+      <li> Invoking a function
+      <li> Rnning recursive processes
+      <li> Reversing the order of elements
+      <li> Expression conversion and expression evaluation
+
+      <h4> Accessor Methods </h4>
+      <li> <span id="CODE">push(var) </span> - Pushes an item onto the stack. Requires a parameter
+      <li> <span id="CODE">pop() </span> - Returns the top value of the stack
+
+      <h4> Implementation - Using an Array </h4>
+      <li> Using a linear array
+      <li> Static stack size
+      <span id="CODE">TOP </span> - a variable to keep track of the stack size
+      <ul>
+        <li> Holds the index of the topmost element
+        <li> Initially, <span id="CODE">TOP = -1 </span> because when <span id="CODE">TOP = 0</span>, then there is 1 item
+      </ul>
+      <li> Make sure the push and pop functions check for <span id="IMP">underflow</span> and <span id="IMP">overflow</span> conditions.
+      </ul>
+    </p>
+  </body>
+</html>
