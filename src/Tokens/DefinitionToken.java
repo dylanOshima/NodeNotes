@@ -4,7 +4,7 @@ public class DefinitionToken extends Token{
     private String type = "DEF";
     String def;
 
-    DefinitionToken(String def, int current){
+    public DefinitionToken(String def, int current){
         this.def = def;
         this.current = current;
     }

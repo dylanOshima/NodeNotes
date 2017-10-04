@@ -4,7 +4,7 @@ public class ImportantToken extends Token{
     private String type = "IMP";
     String value;
 
-    ImportantToken(String value, int current){
+    public ImportantToken(String value, int current){
         this.value = value;
         this.current = current;
     }

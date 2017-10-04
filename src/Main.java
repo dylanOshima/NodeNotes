@@ -20,7 +20,8 @@ public class Main {
 
     public static void main(String args[]){
 
-        String fileNameRead = "/Users/DylanOshima/Desktop/Personal Projects/NodeNotes.io/NodeNotes/Resources/Tests/HeadersTest.note";
+        String fileNameRead = "Resources/Tests/HeadersTest.note"; //Easy example
+//        String fileNameRead = "Resources/sample.notes"; //Not so easy example
         String fileNameWrite = "writeinme.txt";
 
         Tokenizer tokenizer = new Tokenizer();
@@ -29,6 +30,7 @@ public class Main {
             //Reads the entire file and saves it as a string.
             String content = new String(Files.readAllBytes(Paths.get(fileNameRead)));
 
+            System.out.println("List length: " + content.length());
             LinkedList<Token> tokens = tokenizer.tokenize(content);
 
             System.out.println("\nReading from the Token List");
@@ -36,7 +38,7 @@ public class Main {
                 System.out.print(tokens.get(i).getType() + ", ");
             }
 
-
+//            System.out.println("\n \nREAL CHECK: " + content.charAt(181));
 
 //            //Writes to a pre-existing file called fileNameWrite
 //            //Puts in the content in goodStuff
