@@ -11,4 +11,17 @@ DEF Help Me - "This is" |what "you say when you need help."
 
 DEF WADDUP - "This is" |the stuff| "you need to know."
 
-* "a;sldkjfa;lksdj!"
+* "Compiling techniques - Check online "
+
+* "Chomsky Hierarchy"
+* DEF Chomsky Normal Form (CNF) - "CNF"
+* DEF Context Free - "Let's you count, and let's you look forward and backwards"
+* DEF Context Sensitive - "Stuff"
+* "Recursively Enumerable"
+* Regular Language - Can't count
+* DEF Top Down Parsing - "LLK looking for example one token"
+* DEF Bottom Up Parsing - ""
+* DEF Local lookahead table - ""
+* DEF LL1 Parsing Table - "Search this up so that you can do the parsing of text"
+
+* DEF Concrete syntax tree - "CST -> ABS once you cut the bullshit"
