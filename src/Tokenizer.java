@@ -40,13 +40,14 @@ public class Tokenizer {
  *      4. Check for header tokens √
  *      5. Check for definition tokens √
  *      6. Check for bullet tokens √
- *      7. Check for important token
+ *      7. Check for important token √
  *      8. Check for code tokens √
  *      9. Check for text tokens √
  *
  *    TODO:
  *      1. Create custom exceptions
  *          a) Power too great
+ *          b) Index out of bounds
  **/
     public LinkedList<Token> tokens = new LinkedList<Token>();
 

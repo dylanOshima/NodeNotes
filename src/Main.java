@@ -21,7 +21,6 @@ public class Main {
     public static void main(String args[]){
 
         String fileNameRead = "Resources/Tests/HeadersTest.note"; //Easy example
-//        String fileNameRead = "Resources/sample.notes"; //Not so easy example
         String fileNameWrite = "writeinme.txt";
 
         Tokenizer tokenizer = new Tokenizer();
@@ -38,10 +37,11 @@ public class Main {
                 System.out.print(tokens.get(i).getType() + ", ");
             }
 
-//            System.out.println("\n \nREAL CHECK: " + content.charAt(181));
 
-//            //Writes to a pre-existing file called fileNameWrite
-//            //Puts in the content in goodStuff
+
+
+            //Writes to a pre-existing file called fileNameWrite
+            //Puts in the content in goodStuff
 //            String goodStuff = "Hi my name is dylan \nI like dancing \nLOL";
 //            Files.write(Paths.get(fileNameWrite), goodStuff.getBytes(), StandardOpenOption.CREATE);
 
